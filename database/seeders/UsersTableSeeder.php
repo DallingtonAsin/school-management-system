@@ -30,7 +30,7 @@ class UsersTableSeeder extends Seeder
         $d = [
 
             ['name' => 'Dallington Inspired',
-                'email' => 'dallington@dsi.com',
+                'email' => 'dallington@school.com',
                 'username' => 'cj',
                 'password' => $password,
                 'user_type' => 'super_admin',
@@ -39,7 +39,7 @@ class UsersTableSeeder extends Seeder
             ],
 
             ['name' => 'Admin KORA',
-            'email' => 'admin@admin.com',
+            'email' => 'admin@school.com',
             'password' => $password,
             'user_type' => 'admin',
             'username' => 'admin',
@@ -48,7 +48,7 @@ class UsersTableSeeder extends Seeder
             ],
 
             ['name' => 'Teacher Chike',
-                'email' => 'teacher@dsi.com',
+                'email' => 'teacher@school.com',
                 'user_type' => 'teacher',
                 'username' => 'teacher',
                 'password' => $password,
@@ -57,7 +57,7 @@ class UsersTableSeeder extends Seeder
             ],
 
             ['name' => 'Parent Kaba',
-                'email' => 'parent@dsi.com',
+                'email' => 'parent@school.com',
                 'user_type' => 'parent',
                 'username' => 'parent',
                 'password' => $password,
@@ -66,7 +66,7 @@ class UsersTableSeeder extends Seeder
             ],
 
             ['name' => 'Accountant Jeff',
-                'email' => 'accountant@dsi.com',
+                'email' => 'accountant@school.com',
                 'user_type' => 'accountant',
                 'username' => 'accountant',
                 'password' => $password,
