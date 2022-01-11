@@ -16,11 +16,11 @@ class SettingsTableSeeder extends Seeder
         DB::table('settings')->delete();
 
         $data = [
-            ['type' => 'current_session', 'description' => '2018-2019'],
+            ['type' => 'current_session', 'description' => '2022-2023'],
             ['type' => 'system_title', 'description' => 'DIA'],
-            ['type' => 'system_name', 'description' => 'Dallington INSPIRED ACADEMY'],
-            ['type' => 'term_ends', 'description' => '7/10/2018'],
-            ['type' => 'term_begins', 'description' => '7/10/2018'],
+            ['type' => 'system_name', 'description' => 'DALLINGTON INSPIRED ACADEMY'],
+            ['type' => 'term_ends', 'description' => '10/01/2022'],
+            ['type' => 'term_begins', 'description' => '15/03/2022'],
             ['type' => 'phone', 'description' => ''],
             ['type' => 'address', 'description' => ''],
             ['type' => 'system_email', 'description' => ''],
